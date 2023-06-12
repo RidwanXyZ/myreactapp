@@ -1,5 +1,8 @@
 import { Card, Button } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
+import styled from 'styled-components';
+
+
 
 const ItemCarousel = styled(Carousel.item)'
 display: flex;
