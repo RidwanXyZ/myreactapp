@@ -4,7 +4,8 @@ import Carousel from "react-bootstrap/Carousel";
 export default function Home() {
   return (
     <div id="home">
-      <Carousel slide={true} className="ratio ratio-16x9">
+      <div className="ratio ratio-16x9">
+      <Carousel slide={true}>
         <Carousel.Item>
           <img
             className="d-block img-fluid"
@@ -46,6 +47,7 @@ export default function Home() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      </div>
       <br />
       <br />
     <Card className="mt-10px container-fluid">
