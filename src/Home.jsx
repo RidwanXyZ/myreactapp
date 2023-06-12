@@ -4,7 +4,7 @@ import Carousel from "react-bootstrap/Carousel";
 export default function Home() {
   return (
     <div id="home">
-      <Carousel slide={true}>
+      <Carousel slide={true} className="ratio ratio-16x9">
         <Carousel.Item>
           <img
             className="d-block img-fluid"
