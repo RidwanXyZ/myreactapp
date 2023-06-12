@@ -16,9 +16,7 @@ function App() {
           </Nav>
         </Container>
       </Navbar>
-      <Container className='m-2'>
       <Home className="text-center" />
-      </Container>
     </>
   );
 }

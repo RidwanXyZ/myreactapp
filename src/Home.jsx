@@ -1,15 +1,16 @@
+import { Card, Button } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
-
 
 export default function Home() {
   return (
     <div id="home">
-      <Carousel fade>
+      <Carousel slide={true}>
         <Carousel.Item>
           <img
-            className="d-block w-100 h-80"
+            className="d-block img-fluid"
             src="/img/img1.jpg"
             alt="First slide"
+            fluid
           />
           <Carousel.Caption>
             <h3>First slide label</h3>
@@ -18,9 +19,10 @@ export default function Home() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100 h-80"
+            className="d-block img-fluid"
             src="/img/img2.jpg"
             alt="Second slide"
+            fluid
           />
 
           <Carousel.Caption>
@@ -30,9 +32,10 @@ export default function Home() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100 h-80"
+            className="d-block img-fluid"
             src="/img/img3.jpg"
             alt="Third slide"
+            fluid
           />
 
           <Carousel.Caption>
@@ -43,6 +46,20 @@ export default function Home() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      <br />
+      <br />
+    <Card className="mt-10px container-fluid">
+    {/*Cards */}
+      <Card.Header>Do You Know?</Card.Header>
+      <Card.Body>
+        <Card.Title>3 Gambar diatas diambil dari unsplash :v</Card.Title>
+        <Card.Text>
+            Dikarenakan saya tidak memiliki banyak stok gambar, jadi saya mencari alternatif seperti unsplash, untuk mengambil gambar dari resource tersebut!.
+        </Card.Text>
+        <Button variant="dark">Ke unsplash</Button>
+      </Card.Body>
+    </Card>
     </div>
+
   );
 }
