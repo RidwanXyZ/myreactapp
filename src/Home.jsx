@@ -4,34 +4,13 @@ import styled from 'styled-components';
 
 
 
-const ItemCarousel = styled(Carousel.item)'
-display: flex;
-
-  align-items: center;
-
-  justify-content: center;
-
-  height: 100vh;
-
-  img {
-
-    max-height: 100%;
-
-    max-width: 100%;
-
-    object-fit: contain;
-
-  }
-';
-
-
 
 export default function Home() {
   return (
     <div id="home">
-      <div className="ratio ratio-16x9">
-      <Carousel slide={true}>
-        <Carousel.Item>
+      <div>
+      <Carousel slide={true} className="ratio ratio-16x9">
+        <Carousel.Item className="mcarousel">
           <img
             className="d-block img-fluid"
             src="/img/img1.jpg"
@@ -43,7 +22,7 @@ export default function Home() {
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className="mcarousel">
           <img
             className="d-block img-fluid"
             src="/img/img2.jpg"
@@ -56,7 +35,7 @@ export default function Home() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item  className="mcarousel">
           <img
             className="d-block img-fluid"
             src="/img/img3.jpg"
