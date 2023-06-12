@@ -1,6 +1,28 @@
 import { Card, Button } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 
+const ItemCarousel = styled(Carousel.item)'
+display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  height: 100vh;
+
+  img {
+
+    max-height: 100%;
+
+    max-width: 100%;
+
+    object-fit: contain;
+
+  }
+';
+
+
+
 export default function Home() {
   return (
     <div id="home">
