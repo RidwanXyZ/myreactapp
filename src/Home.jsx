@@ -54,7 +54,7 @@ export default function Home() {
       </div>
       <br />
       <br />
-    <Card className="mt-10px container-fluid">
+    <Card className="mt-30px container-fluid">
     {/*Cards */}
       <Card.Header>Do You Know?</Card.Header>
       <Card.Body>
