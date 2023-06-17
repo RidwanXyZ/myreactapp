@@ -14,7 +14,7 @@ function App() {
           <Nav className="justify-content-end" gap={3}>
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#features">About me</Nav.Link>
-            <Nav.Link href="#pricing">Contact</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
