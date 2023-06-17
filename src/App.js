@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Home from './Home';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         </Container>
       </Navbar>
       <Home className="text-center" />
+      <Contact className="text-center" />
     </>
   );
 }
