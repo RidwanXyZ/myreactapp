@@ -4,7 +4,7 @@ let API = "https://ridwandev.xyz/api/detik";
 
 export default function Home() {
   const [detik, setDetik] = useState([]);
-  const [img, setImg] = useState([
+  const [img] = useState([
     {
       src: "/img/img1.jpg",
       title: "First slide",
